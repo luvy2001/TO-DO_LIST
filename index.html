@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To Do List</title>
+
+	<!--
+		-favicon
+	-->
+	<link rel="icon" type="image/x-icon" href="./assets/to-do-list-website-favicon-white.png">
+
+	<!--
+		-css link
+	-->
+
+	<link rel="stylesheet" href="main.css" />
+
+	<!--
+		-font
+	-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+</head>
+
+<body>
+	<!--
+		-header
+	-->
+	<header>
+		<img src="./assets/color-on-transparent-background.png" width="550" alt="logo" class="image">
+
+		<!--
+			-form
+		-->
+		<form id="new-task-form">
+			<input type="text" name="new-task-input" id="new-task-input" placeholder="What do you have planned?" />
+			<input type="submit" id="new-task-submit" value="Add task" />
+		</form>
+	</header>
+
+	<!--
+		-main
+	-->
+	<main>
+		<section class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+
+			</div>
+		</section>
+	</main>
+
+	<!--
+		-Js link
+	-->
+	<script src="main.js"></script>
+</body>
+</html>
